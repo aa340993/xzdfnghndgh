@@ -1,0 +1,65 @@
+#progressbox{
+	width: 80%;
+}
+#progressbar{
+	width: 0%;
+	height: 20px;
+}
+#progressboxs{
+	width: 80%;
+}
+#progressbars{
+	width: 0%;
+	height: 20px;
+}
+.container .content{
+	width: 100%;
+	min-height: 800px;
+	background-color: #F7F7F7;
+}
+.container .content .top{
+	height: 50px;
+}
+.container .content .title{
+	width: 70%;
+	height: 50px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #F5DEB3;
+	margin:0 auto;
+	line-height: 50px;
+	text-align: center;
+}
+.container .content .title span{
+	color:#ffffff;
+	font-size: 20px;
+}
+.container .content .forms{
+	margin:0 auto;
+	margin-top: 30px;
+	background-color: #FAFAD2;
+	width: 70%;
+    height: 500px;
+    padding-top: 50px;
+}
+.container .content .forms .progress{
+	margin:0 auto;
+	margin-top: 50px;
+}
+.container .content .forms .cho{
+	width: 50%;
+	float: left;
+}
+.container .content .forms .sub{
+	width: 50%;
+	float: right;
+}
+.container .content .forms .inpuys{
+	height: 100px;
+	width: 70%;
+	margin:0 auto;
+}
+.container .content .forms .output{
+	/*border:1px solid red;*/
+	width: 80%;
+	margin:0 auto;
+}

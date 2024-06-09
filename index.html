@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猪猪签-在线安装</title>
+    <meta name="description" content="提供iOS应用的签名服务和真机测试工具，帮助开发者快速部署和测试他们的应用。">
+    <meta name="keywords" content="iOS签名,无忧签，全能签，轻松签，万能签，签名证书，微信多开，苹果微信多开，P12证书，真机测试, 应用部署, 开发者工具">
+
+    <!-- Open Graph Meta Tags for social media -->
+    <meta property="og:title" content="猪猪签- ipa安装测试工具">
+    <meta property="og:description" content="专为开发者提供的iOS签名和真机测试服务，确保你的应用在部署前能在真机上无缝运行。">
+    <meta property="og:image" content="https://762.762nb.xyz/zzq.png">
+    <meta property="og:url" content="http://www.example.com">
+    <meta property="og:type" content="website">
+
+<script type="text/javascript" src="./assets/js/rem.js"></script>
+<script type="text/javascript" src="./assets/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="./assets/js/JQuery.BlockUI.min.2.39.js"></script>
+<link href="./assets/css/swiper-3.4.1.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/common.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+
+<body>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/viewGreen.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <div id="header"></div>
+
+    <div class="container">
+
+        <div id="appicon-bg">
+            <img id="appicon" src="./logosign2.png" class="appicon">
+        </div>
+
+        <!-- appinfo -->
+
+        <div id="appinfo">
+            <h3 id="appName" style="color:#333;size:18px; ">豬豬簽-線上安裝</h3>
+
+            <!--qq-->
+            <div style="margin-top:10px;margin-bottom:5px;">
+                <span class="label label-info">
+                    <span class="i18n">適用於iOS11 - iOS17設備</span>
+                </span><br>iOS端免費的IPA簽名工具<br>一鍵簽名，線上安裝<br>簽名工具完全免費<br>
+                <p><a href="https://www.showdoc.com.cn/wocnima/11136813208638456/?e=l" target="_blank" style="text-decoration: none;"><strong
+                            style="color: #ff9dbe;"></strong></a></p></strong></a></p>
+                            <a href="https://page.line.me/039emfgyㄗ" style="color: #ff9dbe;"><strong>證書購買 官方售價300/年（如需聯絡客服） </strong></p>客服連結</p></a><br>-----------------------------------------------<br>
+                            <a href="https://762.762nb.xyz/猪猪签 2.ipa" style="color: #ff9dbe; font-weight: bold;"><strong>點擊下載豬豬簽IPA安裝包</strong></a><br>
+-----------------------------------------------
+
+
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+                    <style>
+                        .btn {
+                            display: block;
+                            /* 使链接看起来像块级元素 */
+                            width: 150px;
+                            /* 设置按钮宽度 */
+                            height: 35px;
+                            /* 设置按钮高度 */
+                            line-height: 35px;
+                            /* 设置行高以垂直居中文本 */
+                            padding: 0 18px;
+                            /* 设置内边距 */
+                            font-size: 14px;
+                            /* 设置字体大小 */
+                            text-align: center;
+                            /* 文本居中显示 */
+                            margin: 5px;
+                            /* 添加一些外边距以分隔按钮 */
+                            border-radius: 10px;
+                            /* 圆角边框 */
+                            text-decoration: none;
+                            /* 移除下划线 */
+                            color: #fff;
+                            /* 设置文本颜色 */
+                            background-color: #ff9dbe;
+                            /* 设置背景颜色 */
+                            margin: 0 auto;
+                        }
+
+                        .btn:hover {
+                            background-color: #ff9dbe;
+                            /* 鼠标悬停时的背景颜色 */
+                        }
+                    </style>
+
+                    <!--<a class="btn i18n" href="https://www.baidu.com/?e=l"-->
+                    <!--    target="_blank">证&nbsp;&nbsp;书&nbsp;&nbsp;定&nbsp;&nbsp;制</a>-->
+                    <!--<a class="btn i18n" href="https://kf.qzphp.vip/"-->
+                    <!--    target="_blank">联&nbsp;&nbsp;系&nbsp;&nbsp;客&nbsp;&nbsp;服</a>-->
+                    <a class="btn i18n" href="https://aa340993.github.io/pig-sign/html/p12.html"
+                        target="_blank">證&nbsp;&nbsp;書&nbsp;&nbsp;檢&nbsp;&nbsp;測</a>
+                    <a class="btn i18n" href="連結放這"
+                        target="_blank">影&nbsp;&nbsp;片&nbsp;&nbsp;交&nbsp;&nbsp;學</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div style="font-size:14px;">
+
+
+            </div>
+            <br>
+
+
+            <div id="collapseOne1" class="panel-collapse collapse in">
+                <div class="panel-body">
+
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+
+
+
+                        <div class="tab-pane active " id="sandbox1">
+                            <div class="row">
+                                <div class="col-md-12">
+
+
+                                    <form action="./index/index/uploads" method="POST" enctype="multipart/from-data"
+                                        id="uploadforms" onSubmit="return false">
+                                        <input type="file" name="file[]" class="hide" onchange="uploadjs1()"
+                                            id="uploadfile1">
+                                        <input type="file" name="file[]" class="hide" onchange="uploadjs2()"
+                                            id="uploadfile2">
+                                        <input type="file" name="file[]" class="hide" onchange="uploadjs3()"
+                                            id="uploadfile3">
+                                        <div id="certFile" style="font-size: 12px;">
+                                            <div style="text-align: center; overflow:hidden">
+
+
+
+                                                <div class="col-md-6" style="color: #000000;">
+                                                    <div class="upload-img-init" id="uploadipa">
+                                                        <div id="p12Div">
+                                                            <img id="" src="./assets/img/ipa_file_2x.png" width="45px">
+                                                            <div style="color: #000000; margin-top: 10px;"
+                                                                id="uploadipas" class="i18n">選擇IPA文件</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6" style="color: #000000;">
+                                                    <div class="upload-img-init" id="uploadCert">
+                                                        <div id="p12Div">
+                                                            <img id="" src="./assets/img/p12_file_2x.png" width="45px">
+                                                            <div style="color: #000000; margin-top: 10px;"
+                                                                id="uploadCerts" class="i18n">P12文件</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6" style="color: #000000;">
+                                                    <div class="upload-img-init" id="uploadProvision">
+                                                        <div id="mpDiv">
+                                                            <img id="" src="./assets/img/mp_icon_2x.png" width="45px">
+                                                            <div style="color: #000000; margin-top: 10px;"
+                                                                id="uploadProvisions" class="i18n">描述文件</div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6" style="color: #000000;">
+                                                    <div class="upload-img-init">
+                                                        <div id="outputs" style="color:#555" class="output">
+                                                            <!--  -->狀態：空嫌
+                                                        </div>
+                                                        <div class="progress" id="progressboxs">
+                                                            <div class="progress-bar progress-bar-info progress-bar-striped"
+                                                                role="progressbars" aria-valuenow="20" aria-valuemin="0"
+                                                                aria-valuemax="100" id="progressbars">
+                                                                <div id="progresss">0%</div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div id='ycsx'>
+                                            <div style="margin-top:15px;text-align: center;">
+                                                <input class="i18n" data-ptype="placeholder" type="text" id="password"
+                                                    name="password" placeholder="請輸入P12證書密碼"
+                                                    style="height:29px;width:44%;font-size: 12px;border-top: 1px; border-radius: 10px;padding: 0 18px;border:1px solid #ff9dbe">
+
+                                            </div>
+                                            <font id="set" onclick="zhankai()" color="#ff9dbe">↓點擊展示更多設定↓</font>
+                                            <div id='gengduo' style="margin-top:15px;text-align: center;display:none">
+                                                <div> <img onclick="uploadfile.click()" width="64" height="64"
+                                                        id="imgdata"
+                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACsklEQVR4Xu1aMW4bMRDknopr8wPrB3bg9LH7FM4LnC+okcjKckVKjb4Qv8D+Qew+QZwfyD9wq0K3xhqWcBCUW1JHnkgcD1AhcY/kDoe7Q2pB9PyBnvsvMgCZAT1HIG+BnhMgB0GnLbBYLD6tVqtfQoizDXMQ8VIp9bj5rrW+AACy2T4d2jyXZXk5Go1ebZntBAB1aox5QMTn2gA/lVLLGgBDIcSPnQl0YgMAZ1LKK1vnyc4ZAJfOU7BlASDau1AqJqdt5s4CYIz5K4R4caXWsYGgrSqEOJFSfm6aiw0AiIi3SqnpsZ1yGV9rPQWAGyllo48ZAA5VY0y/GUB5XQixrKc6DrQY2rXWlI6HdY2yb17sFojBmZBzyACERDeFvlkGzOfzr+v1+iXFGDAYDE7G4/FT1gENCLAM6H0azAAEFEIfGkNwufqQYOpNCocSQlrrcwD4Tc4h4hel1J9DHP3fO9ELodlsdoOI7wcsAJhOJpNbnwDY9sUGQduOXO0yAKkwIJQQCs0AigHRCCEKeEVRfKtvE0SkUyZ96HkEgO3NMv1QVdVTm+zgLQu01QH7rslt40Wb7JABiOlKLOktEEoIdREEo74RCg2AbZzJQsgWKd92yTAglBCqp8fdf499gB2VEGo4sZ1Tm++TIPUZjQ7wsZqH9JEBiEkIHbKCbd/xxoBQQqitg9z70d8IcQ501X40IdSVg9w4GQAOoVBCiBu3bXsSQqitk03ve8sCbW+EQjqZAWhAwCcDqCp0mWiZ3FBKuS3r3YcXmwVsig2PRXNuXJu5swBwg6Te7gyAMeYeALbF0lVV3e0WSxdFcV0HpisbRKRi6e8ui+IEAOVWAKAS1NPNIB2WwtO/yFxp/r+yLC9capudAHBBNhXbDEAqKxVqnpkBoZBNpd/MgFRWKtQ8e8+AN87pY18/33w1AAAAAElFTkSuQmCC">
+                                                </div>
+                                                <br>
+                                                <input class="i18n" data-ptype="placeholder" type="text" id="appname"
+                                                    name="appname" placeholder="修改APP名稱（可選項）"
+                                                    style="height:29px;width:44%;font-size: 12px;border-top: 1px; border-radius: 10px;padding: 0 18px;border:1px solid #ff9dbe"><br>
+                                                <input class="i18n" data-ptype="placeholder" type="text" id="bundleid"
+                                                    name="bundleid" placeholder="修改BundleId（用於多開,例如 com.weixin1）"
+                                                    style="height:29px;width:44%;font-size: 12px;border-top: 1px; border-radius: 10px;padding: 0 18px;border:1px solid #ff9dbe">
+                                            </div>
+                                        </div>
+                                        <div id='azbutton'>
+                                            <br>
+
+                                            <button id="submit_btn" class="btn">立即簽名</button>
+                                            
+
+
+
+                                        </div>
+
+                                    </form>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div><!-- #sandbox -->
+
+
+                    </div><!-- .tab-content -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <input type="file" name="file" required placeholder="文件流" style="display:none" id="uploadfile">
+
+    <script>
+        logoimg = '';
+
+        window.onload = function () {
+            var sclogo = document.getElementById("uploadfile");
+            sclogo.addEventListener('change', uploadlogo, false);
+        }
+
+
+
+        function uploadlogo() {
+
+            var file = this.files[0];
+            //这里我们判断下类型如果不是图片就返回 去掉就可以上传任意文件 
+            if (!/image\/\w+/.test(file.type)) {
+                alert("請確保上傳的是圖片");
+                return false;
+            }
+            var reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = function (e) {
+                logoimg = this.result;
+
+                document.getElementById("imgdata").src = this.result;
+                $('#uploadfile').val('');
+
+            }
+        }
+
+        function zhankai() {
+            document.getElementById("gengduo").style.display = 'block';
+            document.getElementById("set").style.display = 'none';// 隐藏选择的元素
+
+        }
+        function fuzhi(url) {
+
+            const textToCopy = url;
+            navigator.clipboard.writeText(textToCopy)
+                .then(() => {
+                    alert('連結複製成功，請用Safari打開')
+
+                })
+                .catch((error) => {
+                    alert('連結複製失敗')
+                })
+
+
+        }   
+        // 禁止右键菜单
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
+
+// 禁止特定键盘快捷键
+document.addEventListener('keydown', function(event) {
+    // 禁止 F12 键打开开发者工具
+    if (event.key === 'F12') {
+        event.preventDefault();
+    }
+    // 禁止 Ctrl+Shift+I 组合键
+    if (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'i')) {
+        event.preventDefault();
+    }
+    // 禁止 Ctrl+Shift+C 组合键
+    if (event.ctrlKey && event.shiftKey && (event.key === 'C' || event.key === 'c')) {
+        event.preventDefault();
+    }
+    // 禁止 Ctrl+Shift+J 组合键
+    if (event.ctrlKey && event.shiftKey && (event.key === 'J' || event.key === 'j')) {
+        event.preventDefault();
+    }
+    // 禁止 Ctrl+U 组合键查看源代码
+    if (event.ctrlKey && event.key === 'U') {
+        event.preventDefault();
+    }
+    // 禁止 Ctrl+C 组合键复制
+    if (event.ctrlKey && event.key === 'C') {
+        event.preventDefault();
+    }
+});
+
+    </script>
+    <script src="./assets/js/signn.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.form.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="./assets/js/qrcode.min.js"></script>
+    <script src="./assets/js/qrcode.min.js"></script>
+
+    <div id="beian" style="text-align: center; margin-top: 20px;">
+        <p><a href=""
+                <!--target="_blank"></a>----------------------------------------------------------------------------------------------
+                    ----------------------------------------------------------------------------------------------
+                    ---------------------------------------------------------------------------</p>
+    </div>
+
+</body>
+</body>
+
+
+</html>

@@ -1,0 +1,327 @@
+@charset "UTF-8";
+body {
+    color: #969b9d;
+    size: 14px;
+    font-family: 'NotoSansHans-Regular,AvenirNext-Regular,proxima-nova,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei","Open Sans","Helvetica Neue",Arial,sans-serif';
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #eff1f2;
+}
+
+.table-hover>tbody>tr:hover>td,
+.table-hover>tbody>tr:hover>th {
+    background-color: #e5e8e9;
+}
+
+.table-hover>tbody>tr>td.warning:hover,
+.table-hover>tbody>tr>th.warning:hover,
+.table-hover>tbody>tr.warning:hover>td,
+.table-hover>tbody>tr.warning:hover>th {
+    background-color: #e5e8e9;
+}
+
+#header {
+    background-color: #ff9dbe;
+    height: 150px;
+    width: auto;
+}
+
+#footer {
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    /* background: #fff; */
+    color: #999;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 1px;
+    /* margin-top: 30px; */
+}
+
+#appicon-bg {
+    box-shadow: 0 10px 29px rgba(0, 0, 0, .06);
+    ;
+    -webkit-transition: box-shadow 0.2s ease-in-out;
+    -moz-transition: box-shadow 0.2s ease-in-out;
+    -o-transition: box-shadow 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    border: none;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: auto;
+    margin-top: -110px;
+    margin-bottom: 30px;
+}
+
+.appicon {
+    border: none;
+    border-radius: 24px;
+}
+
+.btn-u-lg,
+a.btn-u-lg {
+    font-size: 15px;
+    min-width: 160px;
+    height: 46px;
+    padding: 10px 30px;
+    background-color: #ff9dbe !important;
+    border-radius: 12px;
+    border-color: #ff9dbe !important;
+}
+
+.btn-u-gray {
+    font-size: 18px;
+    padding: 10px 50px;
+    background-color: #999999 !important;
+    border-radius: 5px;
+    border-color: #999999 !important;
+}
+
+.btn {
+    background: #ff9dbe;
+    width: 140px;
+    padding: 6px;
+    color: white;
+    /* font-weight: normal; */
+   
+    border-color: #ff9dbe !important;
+    font-size: 13px;
+    text-shadow: none;
+}
+
+.btn:hover {
+    background: #ff9dbe;
+    color: white;
+}
+
+.btn-u.btn-u-green:hover,
+.btn-u.btn-u-green:focus,
+.btn-u.btn-u-green:active {
+    background-color: #ff9dbe !important;
+    color: #fff;
+}
+
+.servive-block-light,
+.servive-block-default {
+    background: none;
+}
+
+.gray-text {
+    color: #969b9d;
+}
+
+.gray-text li {
+    color: #969b9d;
+}
+
+.breadcrumb>li+li:before {
+    content: none;
+}
+
+.breadcrumb>li {
+    padding: 0 5px;
+}
+
+.devider.devider-dotted {
+    border-top: 1px solid #e7ebed;
+}
+
+.content-title {
+    size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    border-top: 0;
+}
+
+ul.breadcrumb {
+    padding: 0;
+}
+
+@media(max-width: 320px) {
+    table.app_view_history>tbody>tr>td:first-child {
+        width: 60% !important;
+    }
+    table.app_view_history>tbody>tr>td:nth-child(2) {
+        text-align: left;
+        padding-left: 15px;
+    }
+}
+
+.pcshow {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .pcshow {
+        display: none;
+    }
+    a.btn-lg-default,
+    a.btn-lg-default:hover,
+    a.btn-lg-default:focus {
+        background-color: #95a5a6 !important;
+        border-color: #95a5a6;
+    }
+    span.tryAgain {
+        top: -16px;
+    }
+    table.app_view_history>tbody>tr>td:first-child {
+        padding-right: 15px;
+        text-align: right;
+        width: 53% !important;
+    }
+}
+
+@media(max-width: 414px) {
+    #header {
+        height: 100px;
+    }
+    #appicon-bg {
+        box-shadow: 0 10px 29px rgba(0, 0, 0, .06);
+        ;
+        -webkit-transition: box-shadow 0.2s ease-in-out;
+        -moz-transition: box-shadow 0.2s ease-in-out;
+        -o-transition: box-shadow 0.2s ease-in-out;
+        transition: box-shadow 0.2s ease-in-out;
+        width: 100px;
+        height: 100px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        border-radius: 24px;
+        border: none;
+        background-color: #ffffff;
+        padding: 12px;
+        margin: auto;
+        margin-top: -70px;
+        margin-bottom: 30px;
+    }
+}
+
+.nav-pills {
+    margin-bottom: 0px;
+    background-color: #ff9dbe;
+}
+
+.nav-pills>li>a {
+    color: white;
+}
+
+.nav-pills>li.active>a {
+    color: red;
+    background-color: #ff9dbe;
+}
+
+.nav-pills>li.active>a:hover {
+    color: red;
+    background-color: #ff9dbe;
+}
+
+.nav-pills>li>a:hover {
+    color: #ff9dbe;
+    background-color: white;
+}
+
+.label-info {
+    background-color: #5bc0de;
+    padding: 3px 7px;
+}
+
+.label {
+    font-weight: normal;
+    text-shadow: none;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+.col-md-6 {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: auto
+    }
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
+
+@font-face {
+    font-family: bf;
+    src: url(./bootstrap/font/);
+}
+
+.description {
+    color: #666666;
+    text-align: left;
+}
+
+.upload-img-init {
+    height: 120px;
+    /* min-height: 150px; */
+    border: 1px dashed #DDD;
+    border-radius: 6px;
+    color: #DDD;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.file-name {
+    color: #333;
+}
+
+.upload-img-init .file-name {
+    word-break: break-word
+}
+
+.upload-img-init .file-name>.fa {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #bbb;
+    font-size: 16px;
+    /* position: relative; */
+    margin-top: 5px
+}
+
+.upload-img-init .file-name>.fa:hover {
+    color: rgba(26, 188, 156, 1)
+}
